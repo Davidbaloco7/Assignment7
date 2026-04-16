@@ -13,9 +13,7 @@ import Form from './components/Form';
 
 export default function RootLayout() {
 
-const [list,setList] = useState([{gameName:"Mario 2" , publisher:"Nintendo" , developer:"Nintendo", score: 77} ,
-    {gameName:"RE1" , publisher:"Campcon" , developer:"Campcon", score: 87}
-  ]);
+const [list,setList] = useState([]);
 
 
 async function deleteElement(){
